@@ -1,0 +1,13 @@
+{
+  "folders": ["ENTER","FOLDERS"],
+  "s3": {
+    "bucket": "BUCKET",
+    "region": "REGION",
+    "endpoint": "ENDPOINT",
+    "object": "OBJECT KEY"
+  },
+  "keys": {
+    "access": "ACESS KEY",
+    "secret": "SECRET KEY"
+  }
+}

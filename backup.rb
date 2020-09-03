@@ -7,7 +7,7 @@ json = File.read("#{__dir__}/config.json")
 config = JSON.parse(json)
 
 input = ""
-config.folders.each do |folder|
+config["folders"].each do |folder|
   input << " #{folder}"
 end
 puts "Starting backup"
